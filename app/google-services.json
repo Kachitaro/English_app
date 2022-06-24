@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "204574822156",
+    "project_id": "englishquiz-5610d",
+    "storage_bucket": "englishquiz-5610d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204574822156:android:3ddd3125d8ab204ab9c329",
+        "android_client_info": {
+          "package_name": "tdtu.final_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204574822156-62tqjm24e8qdbmgp7qa4sm5tr9eb8ubc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgKsyUin57PZ4A_ZanE3wleLP7hDX9crw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204574822156-62tqjm24e8qdbmgp7qa4sm5tr9eb8ubc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

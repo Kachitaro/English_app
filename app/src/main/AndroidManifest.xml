@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tdtu.final_mobile">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinalMobile"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".home.extra.ExtraActivity"
+            android:exported="true" />
+        <activity
+            android:name=".home.extra.AboutUsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".home.extra.SettingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".home.extra.MeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".home.notification.NotificationDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".home.notification.NotificationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".home.contribute.ContributeDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".home.contribute.ContributeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".home.vocabulary.VocabularyDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".home.quiz.QuizzesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".home.favorite_vocab.FavoriteVocabActivity"
+            android:exported="true" />
+        <activity
+            android:name=".home.checkin.CheckInActivity"
+            android:exported="true" />
+        <activity
+            android:name=".home.quiz.QuizActivity"
+            android:exported="true" />
+        <activity
+            android:name=".presentation.PracticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.vocabulary.VocabularyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".home.HomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".login_register.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".login_register.MainActivity"
+            android:exported="true">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+    </application>
+
+</manifest>
